@@ -8,20 +8,6 @@ The main goal is to convert unstructured customer review text into structured, m
 
 Instead of manually reading thousands of reviews or moving the text to an external system for every analysis, the project uses **Snowflake Cortex** to perform AI-powered text processing directly within Snowflake.
 
-## 📸 Dashboard Screenshots
-
-### Overview1
-![Overview1](images/image1.png)
-
-### Overview2
-![Overview2](images/image2.png)
-
-### Overview3
-![Overview3](images/image3.png)
-
-### Overview4
-![Overview4](images/image4.png)
-
 ---
 
 ## Business Problem
