@@ -1,0 +1,22 @@
+
+I have two Snowflake tables:
+
+GUEST_REVIEWS_ENRICHED
+GUEST_REVIEWS_ENRICHED_CATEGORIES
+
+Provide me with code to create a streamlit app with the following:
+
+1. Average sentiment score per branch
+2. Sentiment distribution per category, excluding unknown and overall as a 100% bar
+3. Average sentiment score per reviewer location, only include locations with more than 50 reviews
+4. Count of reviews per category, excluding overall and unknown
+5. Average sentiment value over time - ensure year-month is converted to a date data type as yyyy-mm
+
+Do not include any reviews where sentiment is unknown or where the category is overall unless specifically stated above.
+Add a filter for branch
+
+# If an error occur paste the error into cortex code prompt. It will provide the code needed to fix it
+
+# Prompt for Update
+
+Update the colors in the Sentiment distribution per category so that positive is green, negative is red and neutral and mixed are orange and yellow. Order the output of the Average sentiment score per reviewer location and Review count per category bar charts in descending order. Ensure the axis values for categorical columns display in fill, some are cut off.
